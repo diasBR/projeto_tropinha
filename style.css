@@ -36,23 +36,23 @@
         color: white;
         font-size: 12px;
         text-align: center;
-        margin-top: 6px;
+        margin-top: 2px;
     }
 
     p{
         font-size: 16px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .content{
-        display: inline;
+        /* display: inline; */
     }
 
     .list{
         background-color: white;
-        height: 45px;
-        margin-top: 15px;
-        border-radius: 23px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 20px;
         width: 85%;
         display: flex;
         justify-content: space-between;
@@ -78,7 +78,7 @@
     footer{
         width: 75%;
         height: 50px;
-        margin-top: 18px;
+        margin-top: 10px;
         display: flex;
     }
 
