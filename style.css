@@ -1,0 +1,186 @@
+@media screen and (max-width: 600px) {
+
+    *{
+        margin: auto;
+        padding: auto;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #61ab6b;
+        font-family: "Verdana", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial";
+        /* font-family: "CooperBlack", sans-serif; */
+    }
+
+    @font-face {
+        font-family: "CooperBlack";
+        src: url("./fonts/cooper-black.ttf") format("truetype"); /* Caminho relativo até a pasta de fontes e formato da fonte */
+    }  
+
+    .top-bar{
+        background-image: url(./image/1.jpg);
+        height: 175px;
+        background-size: cover;
+    }
+
+    .logo{
+        width: 60%;
+        height: 150px;
+        margin: 15px;
+        background-image: url(./image/logo_tropinha_oficial_site.png);
+        background-size: cover;
+        margin: auto;
+    }
+
+    .headerLogo{
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .content{
+        display: inline;
+    }
+
+    .list{
+        background-color: white;
+        height: 45px;
+        margin-top: 15px;
+        border-radius: 23px;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .list img{
+        width: 20px;
+    }
+
+    .image{
+        width: 30px;
+        margin: 10px;
+    }
+
+    .link{
+        background-color: white;
+        width: 50px;
+        border-radius: 25px;
+        display: flex;
+    }
+
+    footer{
+        width: 75%;
+        height: 50px;
+        margin-top: 18px;
+        display: flex;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    *{
+        margin: auto;
+        padding: auto;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #61ab6b;
+        font-family: "Verdana", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial";
+        /* font-family: "CooperBlack", sans-serif; */
+    }
+
+    @font-face {
+        font-family: "CooperBlack";
+        src: url("./fonts/cooper-black.ttf") format("truetype"); /* Caminho relativo até a pasta de fontes e formato da fonte */
+    }  
+
+    .container{
+        max-width: 788px;
+    }
+
+    .top-bar{
+        background-image: url(./image/1.jpg);
+        height: 370px;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .logo{
+        width: 28%;
+        height: 150px;
+        margin: 15px;
+        background-image: url(./image/logo_tropinha_oficial_site.png);
+        background-size: cover;
+        margin: auto;
+    }
+
+    .headerLogo{
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .content{
+        display: inline;
+    }
+
+    .list{
+        background-color: white;
+        height: 45px;
+        margin-top: 15px;
+        border-radius: 23px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .list img{
+        width: 20px;
+    }
+
+    .image{
+        width: 30px;
+        margin: 10px;
+    }
+
+    .link{
+        background-color: white;
+        width: 50px;
+        border-radius: 25px;
+        display: flex;
+    }
+
+    footer{
+        width: 40%;
+        height: 50px;
+        margin-top: 18px;
+        display: flex;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
